@@ -1,0 +1,8 @@
+{
+  "name": "mec-checkin",
+  "version": "1.0.0",
+  "description": "2026 CMU Medical Ethics Camp — NFC Check-in System",
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}
