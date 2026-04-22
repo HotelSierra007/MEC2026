@@ -19,3 +19,4 @@ export const participants = [
   { uid: "10014", name: "Anchana Meechai",      role: "Visitor", checkin_time: null },
   { uid: "10015", name: "Dr. Narongchai Siri",  role: "Staff",   checkin_time: null },
 ];
+module.exports = { participants };
