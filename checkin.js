@@ -2,7 +2,7 @@
 // In-memory store (resets on cold start — fine for a 1-day event on a warm instance)
 // For persistence, swap this with your Google Sheets Apps Script call.
 
-import { participants } from "./_data.js";
+const { participants } = require("./_data.js");
 
 // Module-level store persists across warm invocations on the same instance
 if (!global._mecStore) {
